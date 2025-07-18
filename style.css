@@ -1,4 +1,20 @@
 .button1{
     background-color:#7185a6;
-    border: 2px solid gray;
+    border: 2px solid rgb(90, 83, 83);
+    color: white;
+    padding:15px;
+    float:left;
+}
+.button1:hover{
+    background-color:red;
+}
+.button{
+    background-color:#7185a6;
+    border: 2px solid rgb(90, 83, 83);
+    color: white;
+    padding:15px;
+    float:left;
+}
+.button:hover{
+    background-color:blue;
 }
