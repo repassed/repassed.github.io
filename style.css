@@ -1,9 +1,27 @@
+a{
+    color: white;
+    text-decoration: none;
+    cursor: text;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+body{
+    color: white;
+    padding: 10px;
+    font-family: Arial;
+}
+
 .button1{
     background-color:#7185a6;
     border: 2px solid rgb(90, 83, 83);
     color: white;
     padding:15px;
     float:left;
+    font-family: Arial;
 }
 .button1:hover{
     background-color:red;
@@ -14,7 +32,18 @@
     color: white;
     padding:15px;
     float:left;
+    font-family: Arial;
 }
 .button:hover{
     background-color:blue;
+}
+.btn-group{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+body {
+    background-image: linear-gradient(to bottom right, rgb(85, 180, 128), rgb(39, 130, 172));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
